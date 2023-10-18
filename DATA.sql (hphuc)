@@ -1,0 +1,241 @@
+use VINABOOK
+
+INSERT INTO [dbo].[DANHMUC] (TenDM)
+VALUES
+(N'Sách Ngoại Văn'),
+(N'Sách Kinh Tế'),
+(N'Sách Văn Học Trong Nước'),
+(N'Sách Văn Học Nước Ngoài'),
+(N'Sách Thưởng Thức - Đời Sống'),
+(N'Sách Thiếu Nhi'),
+(N'Sách Phát Triển Bản Thân'),
+(N'Sách Tin Học - Ngoại Ngữ'),
+(N'Sách Chuyên Ngành'),
+(N'Sách Giáo Khoá - Giáo Trình'),
+(N'Tạp Chí - Văn Phòng Phẩm');
+
+select * from danhmuc
+
+INSERT INTO [dbo].[PHATHANHSACH] (TENNPT)
+VALUES
+(N'NHÃ NAM'),
+(N'ALPHA BOOKS'),
+(N'ĐÔNG TÂY'),
+(N'NXB VĂN HÓA VĂN NGHỆ'),
+(N'NHÀ SÁCH HOA SEN'),
+(N'NXB TRẺ'),
+(N'ĐÔNG A DC'),
+(N'CỔ NGUYỆT'),
+(N'COMICOLA'),
+(N'CTCP TINH VĂN'),
+(N'CTCP SÁCH AN TIÊM'),
+(N'CORGI CHILDRENS'),
+(N'CÔNG TY TRUYỀN ĐĂNG'),
+(N'CTCP QUANG MINH'),
+(N'CTY HẢI GIANG'),
+(N'1980BOOKS'),
+(N'BẮC HÀ'),
+(N'BẢO KHÔI'),
+(N'BIZBOOKS'),
+(N'BLUEWAY'),
+(N'CADASA'),
+(N'CẨM PHONG BOOKS'),
+(N'CAO VĂN QUANG'),
+(N'BRISTISH BOOKS'),
+(N'BẢO NHI'),
+(N'BESTBOOK'),
+(N'AZ VIỆT NAM'),
+(N'CTTNHH PHẦN MỀM TIN HỌC ANH NGỌC'),
+(N'CỬA HÀNG THỊNH PHONG'),
+(N'CTY SÁCH LẠC HỒNG');
+
+select * from phathanhsach
+
+INSERT INTO [dbo].[NHANVIEN](TENNV, GIOITINH, VITRI, NGAYSINH, NGAYTHUE, DIACHINV, SDT, LUONG)
+VALUES
+(N'Nguyễn Văn An', 'Nam', N'nhân viên', '1993-09-15', '2021-08-12', N'123 Lê Lợi, Quận 1, TP.HCM', '0901234567', 7000000),
+(N'Trần Thị Bình', 'Nữ', N'nhân viên', '1995-04-21', '2019-12-18', N'456 Nguyễn Huệ, Quận 1, TP.HCM', '0987654321', 7500000),
+(N'Lê Văn Chung', 'Nam', N'trưởng phòng', '1988-11-02', '2018-06-24', N'789 Cách Mạng Tháng Tám, Quận 3, TP.HCM', '0934567890', 18000000),
+(N'Phạm Thị Diệu', 'Nữ', N'nhân viên', '1991-06-18', '2019-11-02', N'234 Trần Hưng Đạo, Quận 5, TP.HCM', '0978345621', 8500000),
+(N'Hoàng Văn Thái', 'Nam', N'trưởng phòng', '1984-07-25', '2018-10-09', N'567 Phạm Ngũ Lão, Quận 1, TP.HCM', '0912345789', 19000000),
+(N'Nguyễn Thị Hiền', 'Nam', N'nhân viên', '2002-02-10', '2021-05-07', N'890 Điện Biên Phủ, Quận Bình Thạnh, TP.HCM', '0956781234', 9500000),
+(N'Võ Văn Giang', 'Nam', N'nhân viên', '1999-08-30', '2018-07-23', N'345 Lý Tự Trọng, Quận 1, TP.HCM', '0923456718', 10000000),
+(N'Lý Thị Hà', 'Nữ', N'nhân viên', '2000-03-07', '2019-09-30', N'678 Hai Bà Trưng, Quận 3, TP.HCM', '0941325678', 10500000),
+(N'Đinh Văn Luân', 'Nam', N'nhân viên', '1997-10-12', '2018-02-15', N'912 Nguyễn Du, Quận 1, TP.HCM', '0967865432', 11000000),
+(N'Trần Thị Kiều', 'Nữ', N'nhân viên', '2001-12-28', '2020-04-27', N'543 Hồ Bieu Chanh, Quận Phú Nhuận, TP.HCM', '0909431678', 11500000),
+(N'Hoàng Văn Luận', 'Nam', N'nhân viên', '1990-05-03', '2021-06-11', N'876 Võ Văn Kiệt, Quận 5, TP.HCM', '0932167845', 12000000),
+(N'Nguyễn Thị My', 'Nữ', N'nhân viên', '1993-09-20', '2019-08-20', N'219 Phan Kế Bính, Quận 1, TP.HCM', '0987456123', 17250000),
+(N'Phạm Văn Nở', 'Nữ', N'trưởng phòng', '1986-01-14', '2018-04-03', N'654 Nguyễn Đình Chính, Quận Phú Nhuận, TP.HCM', '0956132874', 7750000),
+(N'Võ Thị Lựu', 'Nữ', N'nhân viên', '1994-04-06', '2021-03-19', N'432 Lý Thường Kiệt, Quận 10, TP.HCM', '0978564123', 8250000),
+(N'Nguyễn Văn Phú', 'Nam', N'nhân viên', '1982-11-29', '2018-09-05', N'765 Ngô Thời Nhiệm, Quận 3, TP.HCM', '0943781625', 8750000),
+(N'Trần Thị Quỳnh', 'Nữ', N'nhân viên', '1998-07-17', '2019-07-08', N'128 Lê Đình Dương, Quận Tân Bình, TP.HCM', '0923456789', 19250000),
+(N'Lê Văn Huy', 'Nam', N'trưởng phòng', '1983-10-07', '2020-02-14', N'567 Võ Thị Sáu, Quận 3, TP.HCM', '0967812345', 19750000),
+(N'Hoàng Thị Sương', 'Nữ', N'nhân viên', '1989-05-12', '2018-12-22', N'321 Lê Quý Đôn, Quận 3, TP.HCM', '0912345678', 10250000),
+(N'Phạm Văn Thiên', 'Nam', N'nhân viên', '1987-08-04', '2021-02-28', N'654 Hoàng Sa, Quận 1, TP.HCM', '0956781324', 10750000),
+(N'Nguyễn Văn U', 'Nam', N'nhân viên', '1993-03-24', '2019-01-11', N'987 Lê Thị Hồng Gấm, Quận 1, TP.HCM', '0901324678', 11250000),
+(N'Võ Thị Vy', 'Nữ', N'nhân viên', '1996-06-07', '2018-11-16', N'234 Nguyễn Thái Bình, Quận Tân Bình, TP.HCM', '0987243561', 11750000),
+(N'Trần Thị Xuân', 'Nữ', N'nhân viên', '2002-09-22', '2020-08-25', N'789 Cao Thắng, Quận 3, TP.HCM', '0934567812', 7225000),
+(N'Hoàng Văn Ý', 'Nữ', N'nhân viên', '1992-01-31', '2018-03-31', N'456 Võ Duy Ninh, Quận Bình Thạnh, TP.HCM', '0943678123', 7725000),
+(N'Lê Thị ', 'Nữ', N'nhân viên', '2004-01-26', '2019-05-26', N'321 Phan Văn Hân, Quận Bình Thạnh, TP.HCM', '0978561234', 8225000),
+(N'Nguyễn Thị Lan', 'Nữ', N'trưởng phòng', '1985-04-29', '2018-01-08', N'654 Lý Thái Tổ, Quận 10, TP.HCM', '0923456781', 18725000),
+(N'Lê Văn Toàn', 'Nam', N'nhân viên', '2000-09-03', '2021-01-04', N'987 Lê Lai, Quận 1, TP.HCM', '0901783456', 9225000),
+(N'Vũ Thị Mai', 'Nữ', N'nhân viên', '1991-07-19', '2019-10-01', N'543 Hồ Văn Huê, Quận Phú Nhuận, TP.HCM', '0956341789', 9725000),
+(N'Đỗ Văn Hoàn', 'Nam', N'nhân viên', '1999-12-16', '2018-08-07', N'876 Đinh Công Tráng, Quận 1, TP.HCM', '0987123456', 10225000),
+(N'Nguyễn Thị Hà', 'Nữ', N'nhân viên', '1998-03-05', '2020-07-15', N'219 Phan Xích Long, Quận Phú Nhuận, TP.HCM', '0967812345', 10725000),
+(N'Trần Văn Minh', 'Nam', N'trưởng phòng', '1994-11-11', '2021-04-09', N'890 Phan Kế Bính, Quận 1, TP.HCM', '0943265781', 19225000);
+
+
+INSERT INTO [dbo].[shipper](TENCTY, SDTCTY)
+VALUES
+('VIETNAMPOST', '1900545481'),
+('GHN', '1900636677'),
+('DHL TRACKING', '190055555');
+
+-- NXB ĐH Kinh tế Quốc dân
+-- NXB Trẻ 
+-- NXB Tổng hợp TP.HCM
+-- NXB First New
+-- NXB ĐH Quốc Gia TP.HCM
+-- NXB ĐH Quốc Gia Hà Nội
+-- NXB Compass Publishing
+-- NXB Hồng Đức
+
+-- thuong thuc cuoc song
+insert into [dbo].[SACH] (TENSACH, GIATIEN, SLTONKHO, NGAYNHAPHANG, NHAXUATBAN, MAPHATHANH)
+values
+(N'Đánh Thức Con Người Phi Thường Trong Bạn', 200000, 27, '1990-01-29', N'NXB ĐH Kinh tế Quốc dân', 1),
+(N'Bảy Thói Quen Của Người Thành Đạt', 132000, 13, '2000-12-04', N'NXB Tổng hợp TP.HCM', 2),
+(N' Những Nguyên Tắc Thành Công', 100000, 8, '2020-02-18', N'NXB Trẻ ', 3),
+(N'Người Dám Cho Đi', 99000, 17, '2023-05-18', N'NXB ĐH Quốc Gia Hà Nội', 4),
+(N'Làm Chủ Tư Duy, Thay Đổi Vận Mệnh',190000 , 12, '2000-08-04', N'NXB Trẻ ', 5),
+(N'Nghĩ Giàu Làm Giàu', 87000, 1, '2021-10-10', N'NXB First New', 6),
+(N' Mặt Phải', 162000, 15, '1987-02-09', N'NXB Hồng Đức', 7),
+(N'Bảy Chiến Lược Thịnh Vượng Và Hạnh Phúc', 73000, 18, '1980-01-12', N'NXB First New', 8),
+(N'Sức Mạnh Của Sự Toàn Tâm Toàn Ý', 79000, 2, '1987-07-09', N'NXB ĐH Quốc Gia TP.HCM', 9),
+(N'Bí Quyết Tay Trắng Thành Triệu Phú', 110000, 5, '1990-02-09', N'NXB Hồng Đức', 10),
+(N'Rèn luyện tư duy Logic', 123000, 4, '2000-09-05', N'NXB ĐH Quốc Gia Hà Nội', 11),
+(N' Hãy sống cuộc đời như bạn muốn ', 199000, 22, '2002-03-04', N'NXB First New', 12),
+(N'Cân bằng cảm xúc cả lúc bão giông', 122000, 30, '2003-12-01', N'NXB ĐH Quốc Gia TP.HCM', 13),
+(N' Những điều giữ tôi còn sống', 119000, 6, '2017-01-10', N'NXB First New', 14),
+(N'Suy nghĩ tích cực', 185000, 11, '2015-06-14', N'NXB ĐH Quốc Gia Hà Nội', 15),
+(N'15 Nguyên tắc vàng về phát triển bản thân ', 196000, 20, '2013-08-27', N'NXB Hồng Đức', 16),
+(N'Những quy luật của bản chất con người', 56000, 10, '2012-11-05', N'NXB Tổng hợp TP.HCM', 17),
+(N'10 phút tĩnh tâm', 147000, 19, '2000-10-27', N'NXB Trẻ ', 18),
+(N' 30 Ngày thay đổi bản thân', 221000, 9, '2004-10-10', N'NXB Tổng hợp TP.HCM', 19),
+(N' Người dám cho đ', 167000, 28, '2004-10-01', N'NXB Tổng hợp TP.HCM', 20),
+(N'Đời ngắn đừng ngủ dài ', 159000, 26, '2003-02-16', N'NXB ĐH Quốc Gia TP.HCM', 21),
+(N'Ai rồi cũng qua – để không Hối hận', 99999, 23, '2001-12-01', N'NXB First New', 22),
+(N'Tối đa hóa năng lực của bản thân ', 180000, 26, '1972-07-05', N'NXB Compass Publishing', 23),
+(N'Sức Mạnh Của Thói Quen ', 200000, 22, '1986-05-07', N'NXB Compass Publishing', 24),
+(N'Tôi Tài Giỏi, Bạn cũng thế!', 158000, 21, '1993-06-23', N'NXB Hồng Đức', 25),
+(N'Trên Đường Băng', 89000, 29, '2009-01-18', N'NXB ĐH Kinh tế Quốc dân', 26),
+(N'Đắc Nhân Tâm', 199000, 14, '2007-09-19', N'NXB Trẻ ', 27), -- Dale Carnegie
+(N'Nhà Giả Kim ', 80000, 25, '1985-01-14', N'NXB Tổng hợp TP.HCM', 28), -- Paulo Coelho
+(N'Thức Tỉnh Mục Đích Sống ', 199000, 10, '1974-05-26', N'NXB Trẻ ', 29), -- Eckhart Tolle
+(N'7 Thói Quen Để Thành Đạt ', 100000, 19, '1999-12-10', N'NXB ĐH Quốc Gia TP.HCM', 30) -- Stephen R. Covey
+
+
+-- kinh te
+insert into [dbo].[SACH] (TENSACH, GIATIEN, SLTONKHO, NGAYNHAPHANG, NHAXUATBAN, MAPHATHANH)
+values
+(N'Bong Bóng Kinh Tế Và Làn Sóng Vỡ Nợ Quốc Gia', 97000, 33, '1990-01-29', N'NXB ĐH Kinh tế Quốc dân', 20),
+(N'Lược Sử Kinh Tế Học', 139000, 45, '2000-12-04', N'NXB Tổng hợp TP.HCM', 21),
+(N'Làm Quen Kinh Tế Học Qua Biếm Họa (Tập 1) – Kinh Tế Vi Mô', 100000, 23, '2020-02-18', N'NXB Trẻ ',22),
+(N'Làm Quen Kinh Tế Học Qua Biếm Họa (Tập 2) – Kinh Tế Vĩ Mô ', 99000, 37, '2023-05-18', N'NXB ĐH Quốc Gia Hà Nội', 23),
+(N'Làm Chủ Tư Duy, Thay Đổi Vận Mệnh',220000 , 26, '2000-08-04', N'NXB Trẻ ', 24),
+(N'Economix – Các Nền Kinh Tế Vận Hành (Và Không Vận Hành) Thế Nào Và Tại Sao', 192000, 1, '2021-10-10', N'NXB First New', 25),
+(N'Lời Thú Tội Mới Của Một Sát Thủ Kinh Tế', 162000, 15, '1987-02-09', N'NXB Hồng Đức', 26),
+(N'Cách Nền Kinh Tế Vận Hành', 50000, 18, '1980-01-12', N'NXB First New', 27),
+(N'Tầm Nhìn Thay Đổi Quốc Gia', 133000, 2, '1987-07-09', N'NXB ĐH Quốc Gia TP.HCM', 28),
+(N'Tư Bản Thế Kỷ 21', 150000, 15, '1990-02-09', N'NXB Hồng Đức', 29),
+(N'Đô-La Hay Lá Nho? ', 123000, 24, '2000-09-05', N'NXB ĐH Quốc Gia Hà Nội', 30),
+(N'Fỉnh Fờ Lũ Ngốc – Kinh Tế Học Thao Túng Và Bịp Bợm – Phishing For Phools', 199000, 22, '2002-03-04', N'NXB First New', 11),
+(N'Kinh Tế Học Hài Hước ', 189000, 30, '2003-12-01', N'NXB ĐH Quốc Gia TP.HCM', 12),
+(N'Sự Giàu Và Nghèo Của Các Dân Tộc', 119000, 6, '2017-01-10', N'NXB First New', 14),
+(N'Từ Tốt Đến Vĩ Đại', 185000, 11, '2015-06-14', N'NXB ĐH Quốc Gia Hà Nội', 15),
+(N'Tinh Hoa Kinh Tế Học', 196000, 20, '2013-08-27', N'NXB Hồng Đức', 16),
+(N'Kiếm Lời Từ Một Trật Tự Thế Giới Mới', 100000, 10, '2012-11-05', N'NXB Tổng hợp TP.HCM', 17),
+(N'Nền Kinh Tế Tăng Trưởng Và Sụp Đổ Như Thế Nào?', 147000, 19, '2000-10-27', N'NXB Trẻ ', 18),
+(N'Dầu Mỏ, Tiền Bạc Và Quyền Lực', 111000, 9, '2004-10-10', N'NXB Tổng hợp TP.HCM', 19),
+(N'Tất Cả Chúng Ta Đều Hành Xử Cảm Tính', 167000, 31, '2004-10-01', N'NXB Tổng hợp TP.HCM', 13),
+(N'Cuộc Đào Thoát Vĩ Đại', 159000, 36, '2003-02-16', N'NXB ĐH Quốc Gia TP.HCM', 1),
+(N'Nghĩ lớn để thành công', 99000, 23, '2001-12-01', N'NXB First New', 2),
+(N'Thấu Hiểu Người Mua', 180000, 19, '1972-07-05', N'NXB Compass Publishing', 3),
+(N'Thôi miên bằng ngôn từ', 200000, 23, '1986-05-07', N'NXB Compass Publishing', 4),
+(N'Bán niềm tin', 195000, 29, '1993-06-23', N'NXB Hồng Đức', 5),
+(N'Đừng bao giờ đi ăn một mình', 85000, 11, '2009-01-18', N'NXB ĐH Kinh tế Quốc dân', 6),
+(N'Đánh cắp ý tưởng', 199000, 14, '2007-09-19', N'NXB Trẻ ', 7), 
+(N'Bí mật DotCom ', 150000, 25, '1985-01-14', N'NXB Tổng hợp TP.HCM', 8), 
+(N'Bí mật tư duy triệu phú', 199000, 22, '1974-05-26', N'NXB Trẻ ', 9), -- T.Harv Eker
+(N'Nhà đầu tư thông minh', 100000, 7, '1999-12-10', N'NXB ĐH Quốc Gia TP.HCM', 10) -- Benjamin Graham
+
+select * from sach
+
+---------------------------------------- chua lam ben duoi
+-- tin hoc - ngoai ngu
+insert into [dbo].[SACH] (TENSACH, GIATIEN, SLTONKHO, NGAYNHAPHANG, NHAXUATBAN, MAPHATHANH)
+values
+(N'Tiếng Nhật Chuyên Ngành Điều Dưỡng Dành Cho Người Mới Bắt Đầu - Kiến Thức Cơ Bản', 95000, 32, '1990-01-29', N'NXB ĐH Kinh tế Quốc dân', 25), -- Mitsuhashi Asako
+(N'Tiếng Nhật Công Nghệ Thông Tin Trong Ngành Phần Mềm', 140000, 41, '2000-12-04', N'NXB Tổng hợp TP.HCM', 26), --Nhiều tác giả
+(N'Building Skills For The TOEFL iBT Beginning', 100000, 25, '2020-02-18', N'NXB Trẻ ',27), -- Nhiều tác giả
+(N'Lập Trình IoT Với Arduino (Tái Bản 2019)', 99000, 39, '2023-05-18', N'NXB ĐH Quốc Gia Hà Nội', 28), -- Phạm Quang Huy
+(N'Lập Trình Hệ Thống Thương Mại Điện Tử ',200000 , 26, '2000-08-04', N'NXB Trẻ ', 29),-- Nhiều tác giả
+(N'Lập Trình Hệ Thống Nhúng Với Raspberry ', 187000, 1, '2021-10-10', N'NXB First New', 30), -- Phạm Quang Huy
+(N'Lập Trình Với PLC S7 1500 Và Rslogix KS', 184000, 15, '1987-02-09', N'NXB Hồng Đức', 19), -- Phạm Quang
+(N'Mạng Truyền Thông Công Nghiệp SCADA (Lý Thuyết - Thực Hành)', 55000, 19, '1980-01-12', N'NXB First New', 1), -- Phạm Quang Huy
+(N'Nâng Cao Vốn Từ Vựng Tiếng Nhật Theo Chủ Đề Bằng Hình Ảnh', 189000, 3, '1987-07-09', N'NXB ĐH Quốc Gia TP.HCM', 2), --  Phương Dung
+(N'Chất Lừ Lừ Với Tiếng Anh Của Woo Bo Hyun ', 170000, 17, '1990-02-09', N'NXB Hồng Đức', 3), -- Woo Bo Hyun
+(N'Khai Thác, Ứng Dụng Adobe Flash & VBA Trong Dạy Học Số Và Truyền Thông', 132000, 42, '2000-09-05', N'NXB ĐH Quốc Gia Hà Nội', 4), -- Nhiều tác giả
+(N'10 Ngày Có Thể Nói 1000 Câu Tiếng Hoa - Công Sở (Kèm 1 CD)', 197000, 4, '2002-03-04', N'NXB First New', 21), -- Tri Thức Việt
+(N'Bài Tập Mạch Điện - Tính Toán, Mô Phỏng Mạch Điện Dùng Phần Mềm Tina', 189000, 37, '2003-12-01', N'NXB ĐH Quốc Gia TP.HCM', 22), --Lê Mỹ Hà
+(N'Listening Strategies For The IELTS Test - Book 2 (Kèm 1 CD)', 115000, 23, '2017-01-10', N'NXB First New', 23), --Lý Á Tân
+(N'Breaking News English! (Kèm 1 CD)', 185000, 13, '2015-06-14', N'NXB ĐH Quốc Gia Hà Nội', 24), -- Tim Ferry
+(N'TOEIC Champion 1000 LC + RC (Kèm 1 CD)', 17000, 22, '2013-08-27', N'NXB Hồng Đức', 25),-- Sunny Choi
+(N'500 Câu Hỏi Luyện Thi Năng Lực Nhật Ngữ - Trình Độ N3', 100000, 11, '2012-11-05', N'NXB Tổng hợp TP.HCM', 5),-- Sasaki Hitoko
+(N'CAD Trong Điện - Điện Tử: Vi Điều Khiển Và Ứng Dụng Lê Ngọc Bích ', 149000, 23, '2000-10-27', N'NXB Trẻ ', 6),--- Phạm Quang Huy
+(N'Nhện Chân Dài (Kèm 1 CD)', 112000, 3, '2004-10-10', N'NXB Tổng hợp TP.HCM', 7), -- Nhiều tác giả
+(N'Ứng Dụng Tin Học Triển Khai Hiệu Quả Chương Trình CDIO Và HEEAP', 176000, 35, '2004-10-01', N'NXB Tổng hợp TP.HCM', 8),--Phan Long
+(N'Master Toefl Junior Basic (CEFR Level A2) - Listening Comprehension (Kèm 1 CD)', 155000, 5, '2003-02-16', N'NXB ĐH Quốc Gia TP.HCM', 9),-- Richie Hahn
+(N'Điều Khiển Và Giám Sát Trong Công nghiệp Lê Ngọc Bích', 90000, 9, '2001-12-01', N'NXB First New', 10),--- Phạm Quang Huy
+(N'Vẽ Bề Mặt Phức Tạp (Surface) Và Gia Công Khuôn Với Pro Engineer Trương Minh Trí', 181000, 18, '1972-07-05', N'NXB Compass Publishing', 11),--  - Trần Tường Thụy
+(N'Solidworks & Rapidform Xor - Dành Cho Người Tự Học', 127000, 26, '1986-05-07', N'NXB Compass Publishing', 12),-- Trương Minh Trí 
+(N'Toeic Smart - Yellow Book Listening (Kèm 1 MP3) ', 187000, 30, '1993-06-23', N'NXB Hồng Đức', 13),-- Nhân Trí Việt
+(N'Cẩm Nang Chat - Messenger Và Cách Tạo Email, Gmail Blog Trên Internet', 85000, 15, '2009-01-18', N'NXB ĐH Kinh tế Quốc dân', 14),-- Công Bình
+(N'Hướng Dẫn Học Windows XP Căn Bản', 191000, 24, '2007-09-19', N'NXB Trẻ ', 15), -- Hoàng Phương
+(N'Khám phá Internet Mỗi Ngày ', 153000, 29, '1985-01-14', N'NXB Tổng hợp TP.HCM', 16), -- Việt Văn Books
+(N'Tiếng Anh Cho Người Định Cư Ở Nước Ngoài (Vấn Đề An Toàn Và Sức Khỏe)', 127000, 22, '1974-05-26', N'NXB Trẻ ', 17), --  Nguyễn Thành Yến
+(N'Sống Sót Nơi Công Sở English Conversation- Tự Tin Giao Tiếp Với 25 Động Từ Và 75 Cấu Trúc Cơ Bản', 159000, 7, '1999-12-10', N'NXB ĐH Quốc Gia TP.HCM', 18) --  Oh Soktae
+
+-- KHACH HANG
+insert into KHACHHANG (TENKH, SDT, DIACHI, email, ACCOUNT, PASS)
+values 
+(N'Đinh Nhật Nam', '542-601-7857', 'Drew-Clifton', 'adrewclifton0@ihg.com', 'tz1TsXNdPkGrTsumumNpfp4KtTuhzm2Prvrs', 'qQ9@H480|+<X@'''),
+(N'Nguyễn Trung Tín', '911-614-2852', 'Maletratt', 'kmaletratt1@elegantthemes.com', 'tz1dPZmgynL9JWWaJmb3L5ThZkNiqbyMjQ4G', 'fA9}V`q,z'),
+(N'Edward Thái', '682-932-1422', 'Bridewell', 'lbridewell2@noaa.gov', 'tz1dsyBGEgcXrRoRhrwUKjPVg7F2EUDNJm9S', 'tB1%tL|C'),
+(N'Thi Anh Đào', '346-819-4930', 'Boram', 'dboram3@paypal.com', 'tz1RH5rasWhmjWdhErozqFfbi5ESDAotKS6n', 'jP2{M9'')a'),
+(N'Tạ Minh Tuấn', '370-992-5302', 'Vlies', 'cvlies4@ifeng.com', 'tz1e3XzRqWRTCSNNd7c9DwnzCfL2VkoPbULo', 'xZ6,)$VpP6D4iN@Q'),
+(N'Mai Trường Giang', '973-425-0805', 'Vigours', 'gvigours5@tuttocitta.it', 'tz1achaAysCMaiQQrKLaec4WoF2vQKizwqmv', 'oI5~Rghm#Yf|'),
+(N'Nguyễn Hà Đông', '383-822-9625', 'Ginnally', 'lginnally6@imdb.com', 'tz1fX839PWDRFkiWpoEeQdvpcTRXqsckcCpV', 'nQ0_surMV/OE'),
+(N'Lương Duy Hoài', '272-226-6881', 'Baxter', 'bbaxter7@wp.com', 'tz1a7mLG449axQarxVjqhNk1aYsMf6Rxgbsu', 'nW7?#V(7Nbi2\'),
+(N'Tạ Sơn Tùng', '981-463-1268', 'Balden', 'bbalden8@infoseek.co.jp', 'tz1XPW55jVDM5mabawN9UgERgXnyEFACSCou', 'xO7!%gYwKDAFaE'),
+(N'Lê Hoàng Uyên Vy', '552-304-4628', 'De Mico', 'mde9@alexa.com', 'tz1ev7cBAguoc1RxEaiBeAPnAAxZJiRrE1FC', 'kQ7{17R!+nhSgr'),
+(N'Ngô Thùy Ngọc Tú', '860-731-0035', 'Bidgood', 'sbidgooda@devhub.com', 'tz1V2Gw8w8H67Yc4tY5ERNxqxLJffxkb7N9w', 'hY7(/V9_1W9v/f'),
+(N'Trương Thanh Thủy', '237-985-5616', 'Lepoidevin', 'blepoidevinb@mapy.cz', 'tz1KeK9gpBj3aNLVtEuDKw3KbwFGEdxNoG2L', 'oK2<W''(wp''oh'),
+(N'Phạm Lê Nguyên', '202-876-6199', 'Dobbie', 'kdobbiec@hc360.com', 'tz1cpcwbaTQHmYArFivz5CAK7cqmLNqYZ7DZ', 'qE2/Q~+DBq/'),
+(N'Nguyễn Hữu Cát Thư', '550-788-3103', 'Stockle', 'pstockled@squarespace.com', 'tz1TfYq78XhcpL8TGJvaRmjFXTE5H5Rk8GED', 'iQ8!(1sEiM(~fE'),
+(N'Lê Hùng Việt Bảo', '273-986-5037', 'Shilito', 'hshilitoe@github.com', 'tz1Xmpah4N5fjga2j3vEjkCQoS2PKGPAogkK', 'qW9>N+pbwb9''J@Cg'),
+(N'Phạm Toàn Thắng', '247-175-4446', 'Dedenham', 'ddedenhamf@ted.com', 'tz1baFRX1bWVG55LeHjfXczPSARc2hjTiXQy', 'tB2~P*`xq6J6'),
+(N'Hàng Lâm Trang Anh', '175-164-6169', 'Hevner', 'shevnerg@mozilla.org', 'tz1SKGugZaqgwMgovPaJZxHwy26Bcx1gHgsi', 'jI0(V6$gxvW~IMz*'),
+(N'Hoàng Thùy', '880-292-5790', 'Truse', 'mtruseh@themeforest.net', 'tz1KxsvLLnL8yoyzceXfN3yRmm5rCVPmhiwp', 'hB7<w>WC/!,/('),
+(N'Nguyễn Ngọc Hưng', '631-738-2767', 'Teape', 'steapei@yahoo.com', 'tz1SZhemYDqPNKGb3YS1Y8DS1jLgo9i1qyms', 'dK2>zsIM!~5'),
+(N'Trịnh Mai Trang ', '484-295-0762', 'Bohike', 'ebohikej@ocn.ne.jp', 'tz1TBpChkwPTcRmRA15c4XZF4zgRfy23waAT', 'hJ7=Zzjt'),
+(N'Nguyễn Thanh Hải', '976-770-6041', 'Seignior', 'lseigniork@timesonline.co.uk', 'tz1SBYv59VJGTRnppUQPU337ZAp1QY2hj7vm', 'dU1,OJj(R'),
+(N'Nguyễn Phi Phi Anh', '243-970-5864', 'Matchitt', 'gmatchittl@nih.gov', 'tz1YES3kMMCvoL6YGSBwq6tcwxVJK2bDxaZX', 'uP3#gWIQLfvc3@'),
+(N'Trần Quang Đức', '560-162-6071', 'Losty', 'mlostym@weebly.com', 'tz1LPtjg9TuhkerTNHLt6e5NMLskHLgsqBcD', 'hP5"W+iTEs%_J)u6'),
+(N'Trần Đức Việt', '384-389-7039', 'Rayman', 'rraymann@chron.com', 'tz1RX5p3GF829CrDzRHoC4nzbStExLVF6xDr', 'jU3,{qdHR'),
+(N'Lê Quang Liêm', '114-942-2473', 'Kelland', 'akellando@cisco.com', 'tz1Vpa6d6buc6aspqk9VZS6eW8WLFRiekYYx', 'lD4)8E9_'),
+(N'Nguyễn Thị Ánh Viên', '302-235-0070', 'O''Harney', 'doharneyp@independent.co.uk', 'tz1c7ZNUHrLLNYvR5eFYaTXE3zDdrrDH2YRn', 'jQ4=4$6HTxz@S,'),
+(N'Trần Khởi My', '467-718-4118', 'Gritsunov', 'ggritsunovq@dropbox.com', 'tz1XQ5D53XPYAqtcSmeAPyNLYupiGAgWh7XM', 'lT6_1qE<S<in9O#'),
+(N'Huỳnh Trấn Thành', '601-919-9199', 'Archell', 'carchellr@cnbc.com', 'tz1Yq3qGtSe5ZwD6V5HZFxMXCEy1NsRjFf5m', 'cZ9=Wt*_k'),
+(N'Trần Phương My', '929-845-3634', 'Constantine', 'cconstantines@ovh.net', 'tz1eTECTmynaJXcRyZZXiiPQKnC2MMMvMNSB', 'rQ5"_58)8f'),
+(N'Hoàng Đức Minh', '459-952-2593', 'Dreinan', 'ddreinant@wiley.com', 'tz1Kym4YJkjGsUPS35PCtHCDT8BQkg9zX4tQ', 'bC4!\+M*Ni6x')
