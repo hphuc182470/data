@@ -90,4 +90,37 @@ insert into SACH  VALUES ('1101',N'Lịch Treo Tường 2018 - The Little Prince
 						('1128',N'Lịch Treo Tường 2018 - The Life In Vietnam (W-B)', 100000 ,48 ,'20230522', null, 5),
 						('1129',N'Lịch Treo Tường 2018 - The Life In Vietnam (Colour)', 100000 ,28 ,'20230221', null, 6),
 						('1130',N'Lịch Treo Tường 2018 - Line Yummy', 100000 ,56 ,'20230415', null, 8)
- 
+  -- KHACH HANG
+SELECT * FROM KHACHHANG
+insert into KHACHHANG 
+values 
+(3030,N'Nguyễn Thị Hương', '212-521-4657', '123 Main Street', 'marqjazfton0@fsg.com', 'haumeavolleyball', 'QwP3y!tX'),
+(3317,N'Lê Văn Tâm', '123-456-7890', '456 Elm Street', 'btranthanhtam1@ihg.com', 'ryemavenpeaceful', 'zD8g@FmR'),
+(6984,N'Trần Thị Mai', '987-654-3210', '789 Birch Avenue', 'cphamthanhloan2@ihg.com', 'cheesefeatherfog', 'LkR2j*Nh'),
+(6789,N'Phạm Văn Hùng', '555-123-4567', '111 Pine Road', 'ddangvanhuy3@ihg.com', 'camelbiscuitspig', 'sA9d#GpW'),
+(3859,N'Hoàng Thị Thảo', '999-888-7772', '555 Maple Lane', 'ehoangthithao4@ihg.com', 'pebbletsunamisea', 'YfH4t@Xq'),
+(5647,N'Nguyễn Văn An', '111-222-3333', '222 Birch Drive', 'fnguyenvanduc5@ihg.com', 'pioneer10cheetah', 'EeV7z$Kp'),
+(8399,N'Vũ Thị Lan', '777-888-9999', '999 Willow Circle', 'gtranthithuy6@ihg.com', 'goatfighurricane', 'CxT5w#Rb'),
+(2834,N'Trần Văn Dũng', '888-777-1111', '777 Cedar Court', 'hnguyenvanquan7@ihg.com', 'inceptionantrice', 'iO1v$HlQ'),
+(2098,N'Hoàng Thị Hà', '323-456-7890', '333 Redwood Street', 'itrangthihang8@ihg.com', 'chocolatebarnest', 'MmZ6y&Uf'),
+(5120,N'Đặng Văn Đức', '543-210-9876', 'De 666 Saint Lane', 'jdovanduc9@ihg.com', 'blueberrydiehard', 'aB4w$VgN'),
+(9942,N'Lê Thị Thủy', '543-210-9876', '444 Laurel Avenue', 'kaduongthithuy10@ihg.com', 'garlicbreadstickice', 'RjT8z&Ls'),
+(5708,N'Nguyễn Văn Quân', '234-127-8901', '828 Siky Road', 'lphamvannam11@ihg.com', 'gollummakemakevirga', 'XoC2k#Vt'),
+(2438,N'Bùi Thị Hòa', '533-220-4571', '654 Park Town', 'mthanhthiquynh12@ihg.com', 'flourishingsoybeans', 'DdF6v%Jz'),
+(8348,N'Trần Văn Tú', '133-510-6264', '123 Elmwood Avenue', 'ntranthidung13@ihg.com', 'featherowltangerine', 'GpU3s$Wq'),
+(5778,N'Phan Thị Tuyết', '236-621-6326', '987 New Street', 'olevannhung14@ihg.com', 'kidneybeatcroissant', 'YwE1x@Fv'),
+(3352,N'Võ Văn Huy', '634-321-3453', '234 Yord Road', 'pphamvanhai15@ihg.com', 'netbasstaurus', 'QzT5p%Mx'),
+(5123,N'Lê Thị Loan', '262-433-5553', '789 Cedar Street', 'qthithilan16@ihg.com', 'oystercatleaf', 'PkD7n@Ro'),
+(5532,N'Đỗ Văn Long', '554-643-7723', '345 Redwood Court', 'rphamvandong17@ihg.com', 'skissoftdrink', 'LhR9m$Za'),
+(6334,N'Nguyễn Thị Thanh', '667-453-3462', '432 Birch Drive', 'strangthitam18@ihg.com', 'owlswansinger', 'NcG2t$Lw'),
+(1267,N'Trần Văn Tuấn ', '876-566-4456', '876 Oakwood Circle', 'tnguyenvanquang19@ihg.com', 'baritoneviola', 'OjE8r%Xq'),
+(6123,N'Phạm Thị Hằng', '133-363-4473', '543 Sequoia Avenue', 'uhoangthihoa20@ihg.com', 'lionednamodehotdog', 'VwI4y$Nh'),
+(2344,N'Hoàng Văn Hải', '336-463-2233', '322 Maple Road', 'vtranvandong21@ihg.com', 'banegoldfishspider', 'SfK6g&Rp'),
+(3251,N'Lê Thị Ngọc', '883-643-6643', '715 Sycamore Street', 'wthitrang22@ihg.com', 'chickenlegmakemake', 'TpW3x&Yl'),
+(2235,N'Nguyễn Văn Nam', '995-333-6643', '526 Take Lane', 'xnguyenvanhung23@ihg.com', 'rabbitflyinginsect', 'HgV7j%Zm'),
+(5216,N'Trần Thị Quỳnh', '754-655-5543', '112 Willow Avenue', 'yphamvanduc24@ihg.com', 'lavaplanetbiscuits', 'UyQ9b$Ha'),
+(2132,N'Vũ Văn Hoàng', '322-643-2526','312 Redwood Lane', 'zhoangthikhanh25@ihg.com', 'pigngc1569', 'ZvD5c%Wo'),
+(6291,N'Phan Thị Lan', '662-345-7234', '987 Birch Drive', 'athitruong26@ihg.com', 'triangulum', 'XrM1k#Ln'),
+(5269,N'Đinh Văn Thắng', '267-343-5237', '321 Yellow Avenue', 'bnguyenvannam27@ihg.com', 'cyclingnet', 'PqA2z#Tb'),
+(1019,N'Lê Thị Hà', '635-643-5432', '24 Fertland', 'cthithuy28@ihg.com', 'ryedorothy', 'FjE6v$Gm'),
+(2249,N'Hoàng Văn Khánh', '901-234-5678', '12 Oakwood Street', 'ddangvanthinh29@ihg.com', 'websincity', 'McH4y%Kp')
