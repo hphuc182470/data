@@ -33,7 +33,7 @@ create table KHACHHANG(
 )
 
 create table TACGIA(
-	MATG INT identity NOT NULL PRIMARY KEY,
+	MATG INT identity(1,1) NOT NULL PRIMARY KEY,
 	TENTG NVARCHAR(MAX),
 	NGAYSINHTG date
 )
