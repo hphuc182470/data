@@ -1,6 +1,4 @@
-CREATE DATABASE VINABOOK
-USE VINABOOK
-
+use vinabook
 CREATE TABLE DANHMUC(
 	MaDM INT identity(01,1) NOT NULL PRIMARY KEY,
 	TenDM NVARCHAR(200)
@@ -110,23 +108,50 @@ CREATE TABLE HOPTAC(
 	CONSTRAINT FK_MATG3 FOREIGN KEY(MATG) REFERENCES TACGIA(MATG),
 	CONSTRAINT FK_MAPHATHANH FOREIGN KEY(MAPHATHANH) REFERENCES PHATHANHSACH(MAPHATHANH)
 )
-				
-				
-CREATE TABLE DemoTable
-( 
-  Id UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),
-  FullName VARCHAR(100),
-);
-GO  
+			
+INSERT INTO [dbo].[DANHMUC] (TenDM)
+VALUES
+( N'Sách Ngoại Văn'),
+( N'Sách Kinh Tế'),
+( N'Sách Văn Học Trong Nước'),
+( N'Sách Văn Học Nước Ngoài'),
+(N'Sách Thưởng Thức - Đời Sống'),
+( N'Sách Thiếu Nhi'),
+(N'Sách Phát Triển Bản Thân'),
+( N'Sách Tin Học - Ngoại Ngữ'),
+(N'Sách Chuyên Ngành'),
+( N'Sách Giáo Khoá - Giáo Trình'),
+( N'Tạp Chí - Văn Phòng Phẩm')
 
-INSERT INTO DemoTable VALUES (default, 'Harold Smith');  
-INSERT INTO DemoTable VALUES (default, 'Robert Johnson');  
-INSERT INTO DemoTable VALUES (default, 'Janice Lopez');
-INSERT INTO DemoTable VALUES (default, 'Kelly Wilson'); 
-INSERT INTO DemoTable VALUES (default, 'Grace Taylor'); 
-GO  
-
-SELECT * FROM DemoTable;
-GO
-
-DROP TABLE DemoTable;
+INSERT INTO [dbo].[PHATHANHSACH] (TENNPT)
+VALUES
+( N'NHÃ NAM'),
+(N'ALPHA BOOKS'),
+(N'ĐÔNG TÂY'),
+( N'NXB VĂN HÓA VĂN NGHỆ'),
+( N'NHÀ SÁCH HOA SEN'),
+( N'NXB TRẺ'),
+(N'ĐÔNG A DC'),
+(N'CỔ NGUYỆT'),
+( N'COMICOLA'),
+( N'CTCP TINH VĂN'),
+( N'CTCP SÁCH AN TIÊM'),
+(N'CORGI CHILDRENS'),
+( N'CÔNG TY TRUYỀN ĐĂNG'),
+( N'CTCP QUANG MINH'),
+( N'CTY HẢI GIANG'),
+( N'1980BOOKS'),
+( N'BẮC HÀ'),
+(N'BẢO KHÔI'),
+( N'BIZBOOKS'),
+( N'BLUEWAY'),
+( N'CADASA'),
+(N'CẨM PHONG BOOKS'),
+( N'CAO VĂN QUANG'),
+( N'BRISTISH BOOKS'),
+( N'BẢO NHI'),
+( N'BESTBOOK'),
+( N'AZ VIỆT NAM'),
+( N'CTTNHH PHẦN MỀM TIN HỌC ANH NGỌC'),
+( N'CỬA HÀNG THỊNH PHONG'),
+(N'CTY SÁCH LẠC HỒNG');
